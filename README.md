@@ -5,25 +5,21 @@ Jack is a modern, Java-like, high level object oriented language. It was created
 This part of the compiler comprises the following modules:
 
 JackTokenizer, which breaks down input stream into separate Jack-language tokens.
-
 CompilationEngine, which is a recursive top-down compilation engine.
-
 SymbolTable, which provides a symbol table for the compiler.
-
 VMWrite, which emits VM commands into a file.
-
 JackCompiler, which is a top-level driver that invokes the other modules.
 
 
 
 Please visit www.nand2tetris.org for more information.
 
-Installation
+### Installation
 Please do:
 
 `$ git clone https://github.com/PawelKosiorek/jack-compiler-front-end.git`
 
-Usage
+### Usage
 If you invoke $ python3 JackCompiler <filename.jack> the program will create a single <filename.vm> file in the same directory.
 
 If you invoke $ python3 JackCompiler <directoryname> it will compile every Jack class in that directory and store the corresponding .vm files in the same directory.
