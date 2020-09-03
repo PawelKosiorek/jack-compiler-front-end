@@ -4,11 +4,11 @@ Jack is a modern, Java-like, high level object oriented language. It was created
 
 This part of the compiler comprises the following classes:
 
-JackTokenizer, which breaks down input stream into separtae jack-language tokens.
+JackTokenizer, which breaks down input stream into separate Jack-language tokens.
 
 CompilationEngine, which is gets input from JackTokenizer and emits .vm output using recursive descent parsing.
 
-VMTranslator, which is a top-level driver.
+
 
 Please visit www.nand2tetris.org for more information.
 
