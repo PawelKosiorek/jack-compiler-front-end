@@ -1,6 +1,6 @@
 # Jack Compiler front end
 
-Jack is a modern, Java-like, high level object oriented language. It was created for the purposes of nand2tetris course and is run on the Hack Computer hardware platform. This software is the front-end part of Jack compiler. Jack compiler consists of back and front end because it is a two-tier one. The front-end part compiles Jack classes into intermadiate code called VM (similar to JVM) whereas the back-end part compiles VM files into a single Hack assembly file, runnable on the Hack platform.
+Jack is a modern, Java-like, high level object oriented language. It was created for the purposes of Nand2tetris course and is run on the Hack Computer hardware platform. This software is the front-end part of Jack compiler. Jack compiler consists of back and front end because it is a two-tier one. The front-end part compiles Jack classes into intermadiate code called VM (similar to JVM) whereas the back-end part compiles VM files into a single Hack assembly file, runnable on the Hack platform.
 
 This part of the compiler comprises the following modules:
 
@@ -25,7 +25,7 @@ Please do:
 
 ### Usage
 
-You will need the nand2tetris software suite to run Jack programs. Get it from https://www.nand2tetris.org/software
+You will need the Nand2tetris Software Suite to run Jack programs. Get it from https://www.nand2tetris.org/software
 
 If you invoke `$ python3 JackCompiler <filename.jack>` the program will create a single <filename.vm> file in the same directory.
 
