@@ -4,11 +4,11 @@ Jack is a modern, Java-like, high level object oriented language. It was created
 
 This part of the compiler comprises the following modules:
 
-JackTokenizer, which breaks down input stream into separate Jack-language tokens.
-CompilationEngine, which is a recursive top-down compilation engine.
-SymbolTable, which provides a symbol table for the compiler.
-VMWrite, which emits VM commands into a file.
-JackCompiler, which is a top-level driver that invokes the other modules.
+JackTokenizer, which breaks down input stream into separate Jack-language tokens.\n
+CompilationEngine, which is a recursive top-down compilation engine.\n
+SymbolTable, which provides a symbol table for the compiler.\n
+VMWrite, which emits VM commands into a file.\n
+JackCompiler, which is a top-level driver that invokes the other modules.\n
 
 
 
