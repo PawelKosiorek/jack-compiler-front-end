@@ -25,5 +25,7 @@ Please do:
 
 ### Usage
 If you invoke $ python3 JackCompiler <filename.jack> the program will create a single <filename.vm> file in the same directory.
+
+
 If you invoke $ python3 JackCompiler <directoryname> it will compile every Jack class in that directory and store the corresponding .vm files in the same directory.
 
