@@ -21,10 +21,10 @@ Please visit www.nand2tetris.org for more information.
 Installation
 Please do:
 
-$ git clone https://github.com/PawelKosiorek/jack-compiler-back-end.git
+`$ git clone https://github.com/PawelKosiorek/jack-compiler-front-end.git`
 
 Usage
-If you invoke $ VMTranslator <filename.vm> the program will create a single <filename.asm> file in the same directory.
+If you invoke $ python3 JackCompiler <filename.jack> the program will create a single <filename.vm> file in the same directory.
 
-If you invoke $ VMTranslator <directoryname> it will compile every .vm file in that directory to one .asm file which will be stored in the same directory.
+If you invoke $ python3 JackCompiler <directoryname> it will compile every Jack class in that directory and store the corresponding .vm files in the same directory.
 
