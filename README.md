@@ -6,9 +6,13 @@ This part of the compiler comprises the following modules:
 
 JackTokenizer, which breaks down input stream into separate Jack-language tokens.
 
-CompilationEngine, which is gets input from JackTokenizer and emits .vm output using recursive descent parsing.
+CompilationEngine, which is a recursive top-down compilation engine.
 
 SymbolTable, which provides a symbol table for the compiler.
+
+VMWrite, which emits VM commands into a file.
+
+JackCompiler, which is a top-level driver that invokes the other modules.
 
 
 
